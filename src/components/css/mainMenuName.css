@@ -17,13 +17,13 @@
 
 .name {
     font-family: "bebas_neueregular";
-    font-size: 12vw;
+    font-size: 1150%;
     text-shadow: 2px 2px grey;
 }
 
 .title {
     font-family: "bebas_neueregular";
-    font-size: 5vw;
+    font-size: 500%;
     text-shadow: 2px 2px darkgrey;
     text-align: right;
 }

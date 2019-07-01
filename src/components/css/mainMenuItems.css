@@ -15,5 +15,6 @@
 .menuItem {
     font-family: "bebas_neueregular";
     padding: 10px;
-    font-size: 4vw;
+    font-size: 350%;
+    text-shadow: 2px 2px darkgrey;
 }

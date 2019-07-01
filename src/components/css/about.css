@@ -16,7 +16,7 @@
 
 .aboutTitle {
     font-family: "athelasbold_italic";
-    font-size: 10vw;
+    font-size: 1000%;
     margin: 0;
     padding-left: 40px;
     padding-top: 40px;
@@ -25,7 +25,7 @@
 
 .aboutMe {
     font-family: "athelasregular";
-    font-size: 4.5vw;
+    font-size: 200%;
     padding: 40px;
     padding-top: 0px;
     position: relative;
