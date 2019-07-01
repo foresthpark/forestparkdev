@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'athelasbold_italic';
+    src: url('../fonts/athelas-bolditalic-webfont.woff2') format('woff2'),
+    url('../fonts/athelas-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'athelasregular';
+    src: url('../fonts/athelas-regular-webfont.woff2') format('woff2'),
+    url('../fonts/athelas-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.skillsTitle {
+    opacity: .25;
+    font-family: 'athelasbold_italic';
+    font-size: 12vw;
+    text-shadow: 2px 2px grey;
+    padding: 20px;
+}
+
+.skillsContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 0px;
+}
+
+.skillCard {
+    padding: 20px;
+
+}

@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('../fonts/bebasneue-regular-webfont.woff2') format('woff2'),
+    url('../fonts/bebasneue-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.mainMenuItemsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.menuItem {
+    font-family: "bebas_neueregular";
+    padding: 10px;
+    font-size: 4vw;
+}
