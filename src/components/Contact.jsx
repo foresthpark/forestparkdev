@@ -21,6 +21,12 @@ const Contact = () => {
           github: <a href='https://github.com/foresthpark' target='_blank'
                      rel="noopener noreferrer">github.com/foresthpark</a>
         </p>
+        <p>
+          <a href='https://drive.google.com/open?id=1PXyNAqFWep4tR1B0L9cDdMduSeAbXVCJ' target='_blank'
+             rel="noopener noreferrer">
+            <b>[Download Resume]</b>
+          </a>
+        </p>
       </div>
     </div>
   );

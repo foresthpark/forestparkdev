@@ -1,0 +1,9 @@
+.contactPoints {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contactIcons {
+    padding: 10px;
+}
