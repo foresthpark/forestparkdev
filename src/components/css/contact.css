@@ -14,6 +14,24 @@
     font-style: normal;
 }
 
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contactLeftDiv {
+
+}
+
+.contactRightDiv {
+
+}
+
+.googleMaps {
+
+}
+
 .contactTitle {
     font-family: "athelasbold_italic";
     font-size: 400%;
@@ -28,8 +46,8 @@
     font-size: 120%;
     padding: 40px;
     padding-top: 0px;
-    position: relative;
-    z-index: 1;
+    /*position: relative;*/
+    /*z-index: 1;*/
     opacity: .9;
 }
 
