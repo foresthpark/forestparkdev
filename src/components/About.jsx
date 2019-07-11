@@ -25,7 +25,7 @@ const About = () => {
       </div>
       <div className='aboutMe'>
         <p>
-          Climbing / Photography / Videography / Puzzle Books / Console,PC Gaming / Board Games
+          Climbing / Photography / Videography / Puzzle Books / Console, PC Gaming / Board Games
         </p>
       </div>
     </div>
