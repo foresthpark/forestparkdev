@@ -19,6 +19,14 @@ const Projects = () => {
   const classes = useStyles();
   const projects = [
     {
+      title: 'Wonderville | Mindfuel',
+      // url: 'https://wonderville.org/',
+      // github: 'https://github.com/foresthpark/Notflicks',
+      image: 'https://i.imgur.com/nP7iA0O.png',
+      about: 'Rapid prototyping UI and UX in Adobe XD to match client requirements, refactoring existing Wonderville site into React to improve UX, and building database model to redesign current login system and enhance UX',
+      tech: ['React', 'NodeJS', 'Express', 'PostgreSQL', 'Adobe XD', 'Design Thinking']
+    },
+    {
       title: 'Notflicks',
       url: 'https://notflicks.herokuapp.com',
       github: 'https://github.com/foresthpark/Notflicks',
@@ -66,20 +74,28 @@ const Projects = () => {
           </CardContent>
           <CardActions>
             <div className='cardUrl'>
-              <a href={project.url} target='_blank' rel="noopener noreferrer">
-                <CardActionArea>
-                  <Button size="small" color="black">
-                    Demo
-                  </Button>
-                </CardActionArea>
-              </a>
-              <a href={project.github} target='_blank' rel="noopener noreferrer">
-                <CardActionArea>
-                  <Button size="small" color="black">
-                    Github
-                  </Button>
-                </CardActionArea>
-              </a>
+              {project.url ?
+                <a href={project.url} target='_blank' rel="noopener noreferrer">
+                  <CardActionArea>
+                    <Button size="small" color="black">
+                      Demo
+                    </Button>
+                  </CardActionArea>
+                </a>
+                :
+                null
+              }
+              {project.github ?
+                <a href={project.github} target='_blank' rel="noopener noreferrer">
+                  <CardActionArea>
+                    <Button size="small" color="black">
+                      Github
+                    </Button>
+                  </CardActionArea>
+                </a>
+                :
+                null
+              }
             </div>
           </CardActions>
         </Card>
