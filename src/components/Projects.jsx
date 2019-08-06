@@ -22,7 +22,7 @@ const Projects = () => {
       title: 'Greengate VR Experience',
       image: 'https://i.imgur.com/lMTW0x0.png',
       about: 'Creating VR experience in Unreal Engine and developing assets in VR according to client requirements and feedback',
-      tech: ['Unreal Engine 4, Photoshop']
+      tech: ['Unreal Engine 4', 'Photoshop']
     },
     {
       title: 'Wonderville | Mindfuel',
