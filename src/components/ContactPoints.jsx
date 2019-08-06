@@ -5,7 +5,7 @@ const ContactPoints = () => {
   const contactPoints = [
     {
       name: 'resume',
-      link: 'https://drive.google.com/open?id=1PXyNAqFWep4tR1B0L9cDdMduSeAbXVCJ',
+      link: 'https://drive.google.com/open?id=1LYI6w_88-4_TcC8CrEp1FTRfuTjPRiEu ',
       image: 'https://i.imgur.com/AizWCPG.png'
     },
     {

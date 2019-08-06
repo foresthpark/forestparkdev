@@ -19,7 +19,7 @@ const Skills = () => {
     },
     {
       type: 'Technical Skills',
-      list: ['TDD', 'React', 'React Native', 'Redux', 'GraphQL', 'NodeJS', 'Express', 'PostgreSQL']
+      list: ['Unreal Engine 4', 'TDD', 'React', 'React Native', 'Redux', 'GraphQL', 'NodeJS', 'Express', 'PostgreSQL']
     },
     {
       type: 'Design Skills',

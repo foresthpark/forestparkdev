@@ -19,9 +19,13 @@ const Projects = () => {
   const classes = useStyles();
   const projects = [
     {
+      title: 'Greengate VR Experience',
+      image: 'https://i.imgur.com/lMTW0x0.png',
+      about: 'Creating VR experience in Unreal Engine and developing assets in VR according to client requirements and feedback',
+      tech: ['Unreal Engine 4, Photoshop']
+    },
+    {
       title: 'Wonderville | Mindfuel',
-      // url: 'https://wonderville.org/',
-      // github: 'https://github.com/foresthpark/Notflicks',
       image: 'https://i.imgur.com/nP7iA0O.png',
       about: 'Rapid prototyping UI and UX in Adobe XD to match client requirements, refactoring existing Wonderville site into React to improve UX, and building database model to redesign current login system and enhance UX',
       tech: ['React', 'NodeJS', 'Express', 'PostgreSQL', 'Adobe XD', 'Design Thinking']
